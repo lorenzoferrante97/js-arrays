@@ -39,7 +39,8 @@ console.log(teachers)
 console.log(`Fabio è presente tra i teachers? ${isFabioPresent}`)
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+const teachersString = teachers.toString();
+console.log(teachersString)
 
 
 //start bonus
